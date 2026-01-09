@@ -1,0 +1,37 @@
+{% extends "base.html" %} {% block title %}Add Transaction{% endblock %} {%
+block content %}
+<h3>Add Transaction</h3>
+
+<form method="POST" class="card p-4 shadow-sm">
+  <div class="mb-3">
+    <label class="form-label">Type</label>
+    <select name="type" class="form-select" required>
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Amount</label>
+    <input
+      type="number"
+      name="amount"
+      class="form-control"
+      step="0.01"
+      required
+    />
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Category</label>
+    <input type="text" name="category" class="form-control" required />
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Description</label>
+    <input type="text" name="description" class="form-control" />
+  </div>
+
+  <button class="btn btn-success">Save</button>
+</form>
+{% endblock %}
