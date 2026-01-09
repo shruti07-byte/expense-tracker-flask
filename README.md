@@ -5,14 +5,13 @@ A secure, full-stack Expense Tracker Web Application built using Flask, enabling
 The application implements user authentication, database persistence, and deployment-ready configuration.
 
 Features:
-
-User Registration & Login (Flask-Login)
-Secure password hashing (Werkzeug)
-Add income and expense transactions
-Category-wise expense tracking
-User-specific data isolation
-SQLite database integration
-Production-ready deployment using Gunicorn
+User Registration & Login (Flask-Login),
+Secure password hashing (Werkzeug),
+Add income and expense transactions,
+Category-wise expense tracking,
+User-specific data isolation,
+SQLite database integration,
+Production-ready deployment using Gunicorn,
 Clean UI with HTML, CSS, and JavaScript
 
 Tech Stack:
